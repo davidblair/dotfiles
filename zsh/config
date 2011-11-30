@@ -5,7 +5,7 @@ else
 fi
 
 export EDITOR='mate_wait'
-export PATH="$HOME/bin:$HOME/.bin:/usr/local/bin:/usr/local/sbin:$PATH"
+export PATH="$HOME/bin:$HOME/.bin:/usr/local/bin:/usr/local/sbin:/usr/local/share/python:$PATH"
 export MANPATH="$MANPATH"
 
 fpath=(~/.zsh/functions $fpath)
